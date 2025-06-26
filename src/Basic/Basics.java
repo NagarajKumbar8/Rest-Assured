@@ -7,15 +7,19 @@ import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.*;
 
 import org.testng.Assert;
+import org.testng.annotations.Test;
 
 import Files.Reusable_methods;
 import Files.payload;
 
 public class Basics {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+	//public static void main(String[] args) {
+	// TODO Auto-generated method stub
 
+	@Test
+	public void apiTest() {
+		
 		RestAssured.baseURI="https://rahulshettyacademy.com";
 		
 		String response= given()  //stored response in string variable
