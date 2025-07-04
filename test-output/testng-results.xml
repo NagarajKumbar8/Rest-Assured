@@ -1,37 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-06-26T13:14:36 IST" name="Suite" finished-at="2025-06-26T13:14:45 IST" duration-ms="8938">
+  <suite started-at="2025-06-26T20:35:13 IST" name="Suite" finished-at="2025-06-26T20:35:24 IST" duration-ms="10764">
     <groups>
-      <group name="Functional">
-        <method signature="Api_Test_with_Json_file.Aapi_Tc3()[pri:0, instance:Basic.Api_Test_with_Json_file@19e4653c]" name="Aapi_Tc3" class="Basic.Api_Test_with_Json_file"/>
-      </group> <!-- Functional -->
+      <group name="functional">
+        <method signature="Api_Test_with_Json_file.Api_Tc3()[pri:0, instance:Basic.Api_Test_with_Json_file@7e057f43]" name="Api_Tc3" class="Basic.Api_Test_with_Json_file"/>
+      </group> <!-- functional -->
       <group name="smoke">
-        <method signature="Api_Test_with_Json_file.Aapi_Tc2()[pri:0, instance:Basic.Api_Test_with_Json_file@19e4653c]" name="Aapi_Tc2" class="Basic.Api_Test_with_Json_file"/>
+        <method signature="Api_Test_with_Json_file.Api_Tc2()[pri:0, instance:Basic.Api_Test_with_Json_file@7e057f43]" name="Api_Tc2" class="Basic.Api_Test_with_Json_file"/>
+        <method signature="Basics.apiTest()[pri:0, instance:Basic.Basics@54422e18]" name="apiTest" class="Basic.Basics"/>
       </group> <!-- smoke -->
     </groups>
-    <test started-at="2025-06-26T13:14:36 IST" name="Test" finished-at="2025-06-26T13:14:45 IST" duration-ms="8938">
+    <test started-at="2025-06-26T20:35:13 IST" name="Test" finished-at="2025-06-26T20:35:24 IST" duration-ms="10764">
       <class name="Basic.Api_Test_with_Json_file">
-        <test-method signature="Aapi_Tc2()[pri:0, instance:Basic.Api_Test_with_Json_file@19e4653c]" started-at="2025-06-26T13:14:44 IST" name="Aapi_Tc2" finished-at="2025-06-26T13:14:44 IST" duration-ms="259" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Aapi_Tc2 -->
-        <test-method signature="Aapi_Tc3()[pri:0, instance:Basic.Api_Test_with_Json_file@19e4653c]" started-at="2025-06-26T13:14:44 IST" name="Aapi_Tc3" finished-at="2025-06-26T13:14:44 IST" duration-ms="224" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Aapi_Tc3 -->
-        <test-method signature="Api_External_file()[pri:0, instance:Basic.Api_Test_with_Json_file@19e4653c]" started-at="2025-06-26T13:14:44 IST" name="Api_External_file" finished-at="2025-06-26T13:14:44 IST" duration-ms="323" status="PASS">
+        <test-method is-config="true" signature="Api_External_file()[pri:0, instance:Basic.Api_Test_with_Json_file@7e057f43]" started-at="2025-06-26T20:35:14 IST" name="Api_External_file" finished-at="2025-06-26T20:35:19 IST" duration-ms="5518" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Api_External_file -->
-        <test-method signature="Api_Tc3()[pri:0, instance:Basic.Api_Test_with_Json_file@19e4653c]" started-at="2025-06-26T13:14:44 IST" name="Api_Tc3" finished-at="2025-06-26T13:14:45 IST" duration-ms="221" status="PASS">
+        <test-method signature="Api_Tc2()[pri:0, instance:Basic.Api_Test_with_Json_file@7e057f43]" started-at="2025-06-26T20:35:23 IST" name="Api_Tc2" finished-at="2025-06-26T20:35:24 IST" duration-ms="236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Api_Tc2 -->
+        <test-method signature="Api_Tc3()[pri:0, instance:Basic.Api_Test_with_Json_file@7e057f43]" started-at="2025-06-26T20:35:24 IST" name="Api_Tc3" finished-at="2025-06-26T20:35:24 IST" duration-ms="265" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Api_Tc3 -->
+        <test-method signature="Api_Tc4()[pri:0, instance:Basic.Api_Test_with_Json_file@7e057f43]" started-at="2025-06-26T20:35:24 IST" name="Api_Tc4" finished-at="2025-06-26T20:35:24 IST" duration-ms="421" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Api_Tc4 -->
       </class> <!-- Basic.Api_Test_with_Json_file -->
       <class name="Basic.Basics">
-        <test-method signature="apiTest()[pri:0, instance:Basic.Basics@76b1e9b8]" started-at="2025-06-26T13:14:36 IST" name="apiTest" finished-at="2025-06-26T13:14:43 IST" duration-ms="7828" status="PASS">
+        <test-method signature="apiTest()[pri:0, instance:Basic.Basics@54422e18]" started-at="2025-06-26T20:35:19 IST" name="apiTest" finished-at="2025-06-26T20:35:23 IST" duration-ms="4229" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- apiTest -->
