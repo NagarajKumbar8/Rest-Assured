@@ -17,7 +17,7 @@ public class Basics {
 	//public static void main(String[] args) {
 	// TODO Auto-generated method stub
 
-	@Test(groups="smoke")
+	@Test(groups="smoke")  //E2E APIs
 	public void apiTest() {
 		
 		RestAssured.baseURI="https://rahulshettyacademy.com";

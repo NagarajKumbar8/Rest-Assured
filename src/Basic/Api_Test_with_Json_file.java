@@ -31,7 +31,7 @@ public class Api_Test_with_Json_file {
 	.body(new String(Files.readAllBytes(Paths.get("Test_Data/API_Payload_for_add_place.json"))))
 
 	.when()
-	.post("/maps/api/place/add/json")
+	.post("/maps/api/place/add/json")   //end points
 	.then()
 	.log().all()  //output log
 	.assertThat().statusCode(200) 
@@ -45,7 +45,7 @@ public class Api_Test_with_Json_file {
 	
 	System.out.println(response);
 	
-	JsonPath js=new JsonPath(response); //for parsing Json response for fetching data or validation 
+	JsonPath js=new JsonPath(response); //for parsing Json response, fetching data or validation 
 	String place_id= js.getString("place_id");
 	System.out.println(place_id);
 	
